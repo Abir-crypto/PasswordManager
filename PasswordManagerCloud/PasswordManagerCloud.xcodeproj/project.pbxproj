@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8817540E2A0615B100A760AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817540D2A0615B100A760AA /* AppDelegate.swift */; };
-		881754102A0615B100A760AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817540F2A0615B100A760AA /* SceneDelegate.swift */; };
-		881754122A0615B100A760AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881754112A0615B100A760AA /* ViewController.swift */; };
-		881754152A0615B100A760AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881754132A0615B100A760AA /* Main.storyboard */; };
-		881754172A0615B200A760AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881754162A0615B200A760AA /* Assets.xcassets */; };
-		8817541A2A0615B200A760AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881754182A0615B200A760AA /* LaunchScreen.storyboard */; };
+		8817544E2A06178700A760AA /* PasswordManagerCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817544D2A06178700A760AA /* PasswordManagerCloudApp.swift */; };
+		881754502A06178700A760AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817544F2A06178700A760AA /* ContentView.swift */; };
+		881754522A06178700A760AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881754512A06178700A760AA /* Assets.xcassets */; };
+		881754552A06178700A760AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881754542A06178700A760AA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8817540A2A0615B100A760AA /* Password manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8817540D2A0615B100A760AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8817540F2A0615B100A760AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		881754112A0615B100A760AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		881754142A0615B100A760AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		881754162A0615B200A760AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		881754192A0615B200A760AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8817541B2A0615B200A760AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8817544A2A06178700A760AA /* PasswordManagerCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManagerCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8817544D2A06178700A760AA /* PasswordManagerCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerCloudApp.swift; sourceTree = "<group>"; };
+		8817544F2A06178700A760AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		881754512A06178700A760AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881754542A06178700A760AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		881754072A0615B100A760AA /* Frameworks */ = {
+		881754472A06178700A760AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		881754012A0615B100A760AA = {
+		881754412A06178700A760AA = {
 			isa = PBXGroup;
 			children = (
-				8817540C2A0615B100A760AA /* Password manager */,
-				8817540B2A0615B100A760AA /* Products */,
+				8817544C2A06178700A760AA /* PasswordManagerCloud */,
+				8817544B2A06178700A760AA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8817540B2A0615B100A760AA /* Products */ = {
+		8817544B2A06178700A760AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8817540A2A0615B100A760AA /* Password manager.app */,
+				8817544A2A06178700A760AA /* PasswordManagerCloud.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8817540C2A0615B100A760AA /* Password manager */ = {
+		8817544C2A06178700A760AA /* PasswordManagerCloud */ = {
 			isa = PBXGroup;
 			children = (
-				8817540D2A0615B100A760AA /* AppDelegate.swift */,
-				8817540F2A0615B100A760AA /* SceneDelegate.swift */,
-				881754112A0615B100A760AA /* ViewController.swift */,
-				881754132A0615B100A760AA /* Main.storyboard */,
-				881754162A0615B200A760AA /* Assets.xcassets */,
-				881754182A0615B200A760AA /* LaunchScreen.storyboard */,
-				8817541B2A0615B200A760AA /* Info.plist */,
+				8817544D2A06178700A760AA /* PasswordManagerCloudApp.swift */,
+				8817544F2A06178700A760AA /* ContentView.swift */,
+				881754512A06178700A760AA /* Assets.xcassets */,
+				881754532A06178700A760AA /* Preview Content */,
 			);
-			path = "Password manager";
+			path = PasswordManagerCloud;
+			sourceTree = "<group>";
+		};
+		881754532A06178700A760AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				881754542A06178700A760AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		881754092A0615B100A760AA /* Password manager */ = {
+		881754492A06178700A760AA /* PasswordManagerCloud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8817541E2A0615B200A760AA /* Build configuration list for PBXNativeTarget "Password manager" */;
+			buildConfigurationList = 881754582A06178700A760AA /* Build configuration list for PBXNativeTarget "PasswordManagerCloud" */;
 			buildPhases = (
-				881754062A0615B100A760AA /* Sources */,
-				881754072A0615B100A760AA /* Frameworks */,
-				881754082A0615B100A760AA /* Resources */,
+				881754462A06178700A760AA /* Sources */,
+				881754472A06178700A760AA /* Frameworks */,
+				881754482A06178700A760AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Password manager";
-			productName = "Password manager";
-			productReference = 8817540A2A0615B100A760AA /* Password manager.app */;
+			name = PasswordManagerCloud;
+			productName = PasswordManagerCloud;
+			productReference = 8817544A2A06178700A760AA /* PasswordManagerCloud.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		881754022A0615B100A760AA /* Project object */ = {
+		881754422A06178700A760AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					881754092A0615B100A760AA = {
+					881754492A06178700A760AA = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 881754052A0615B100A760AA /* Build configuration list for PBXProject "Password manager" */;
+			buildConfigurationList = 881754452A06178700A760AA /* Build configuration list for PBXProject "PasswordManagerCloud" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 881754012A0615B100A760AA;
-			productRefGroup = 8817540B2A0615B100A760AA /* Products */;
+			mainGroup = 881754412A06178700A760AA;
+			productRefGroup = 8817544B2A06178700A760AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				881754092A0615B100A760AA /* Password manager */,
+				881754492A06178700A760AA /* PasswordManagerCloud */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		881754082A0615B100A760AA /* Resources */ = {
+		881754482A06178700A760AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8817541A2A0615B200A760AA /* LaunchScreen.storyboard in Resources */,
-				881754172A0615B200A760AA /* Assets.xcassets in Resources */,
-				881754152A0615B100A760AA /* Main.storyboard in Resources */,
+				881754552A06178700A760AA /* Preview Assets.xcassets in Resources */,
+				881754522A06178700A760AA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		881754062A0615B100A760AA /* Sources */ = {
+		881754462A06178700A760AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				881754122A0615B100A760AA /* ViewController.swift in Sources */,
-				8817540E2A0615B100A760AA /* AppDelegate.swift in Sources */,
-				881754102A0615B100A760AA /* SceneDelegate.swift in Sources */,
+				881754502A06178700A760AA /* ContentView.swift in Sources */,
+				8817544E2A06178700A760AA /* PasswordManagerCloudApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		881754132A0615B100A760AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				881754142A0615B100A760AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		881754182A0615B200A760AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				881754192A0615B200A760AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		8817541C2A0615B200A760AA /* Debug */ = {
+		881754562A06178700A760AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		8817541D2A0615B200A760AA /* Release */ = {
+		881754572A06178700A760AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,19 +259,20 @@
 			};
 			name = Release;
 		};
-		8817541F2A0615B200A760AA /* Debug */ = {
+		881754592A06178700A760AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManagerCloud/Preview Content\"";
 				DEVELOPMENT_TEAM = QAUG82L94Y;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Password manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akumaproduction.Password-manager";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akumaproduction.PasswordManagerCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,19 +288,20 @@
 			};
 			name = Debug;
 		};
-		881754202A0615B200A760AA /* Release */ = {
+		8817545A2A06178700A760AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManagerCloud/Preview Content\"";
 				DEVELOPMENT_TEAM = QAUG82L94Y;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Password manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akumaproduction.Password-manager";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akumaproduction.PasswordManagerCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		881754052A0615B100A760AA /* Build configuration list for PBXProject "Password manager" */ = {
+		881754452A06178700A760AA /* Build configuration list for PBXProject "PasswordManagerCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8817541C2A0615B200A760AA /* Debug */,
-				8817541D2A0615B200A760AA /* Release */,
+				881754562A06178700A760AA /* Debug */,
+				881754572A06178700A760AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8817541E2A0615B200A760AA /* Build configuration list for PBXNativeTarget "Password manager" */ = {
+		881754582A06178700A760AA /* Build configuration list for PBXNativeTarget "PasswordManagerCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8817541F2A0615B200A760AA /* Debug */,
-				881754202A0615B200A760AA /* Release */,
+				881754592A06178700A760AA /* Debug */,
+				8817545A2A06178700A760AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 881754022A0615B100A760AA /* Project object */;
+	rootObject = 881754422A06178700A760AA /* Project object */;
 }
